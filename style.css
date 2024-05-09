@@ -552,8 +552,16 @@ Contact
     padding-top: 3.5rem;
     width: 100%;
 }
+.contact-info{
+    position:relative;
+    /* overflow:hidden; */
+    float: start;
+    padding: .2rem .1rem;
+    
+}
 .left-contact{
     /* float: left; */
+    /* background-color: burlywood; */
     width: 50%;    
     padding-right: 2rem;
     float: left;
@@ -565,35 +573,41 @@ Contact
 
 }
 .left-contact p{
+    text-align: justify;
      margin: 1rem 0;
     line-height: 2rem;
 }
 .contact-item{
+    position:relative;
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     /* justify-content: start; */
-    /* overflow: hidden;
-    object-fit: cover; */
+     /* overflow: hidden; */
+    /* object-fit: cover;  */
 
 }
-.contact-item i{
+ .contact-item i{
     color: var(--color-white);
 }
+
 .contact-item p{
  margin: .3rem 0 !important;
  padding: 0 !important;
 
 }
+
 .contact-item .icon{
     display: grid;
+    /* position: absolute; */
     grid-template-columns: 40px 1fr;
 }
 .contact-item .icon i{
-    /* display: flex; */
+   /* // display: flex; */
     align-items: center;
-}
+} 
+
 .contact-icon{
     display: flex;
     margin-top: 2rem;
